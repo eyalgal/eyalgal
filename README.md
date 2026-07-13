@@ -1,41 +1,25 @@
-# Hi, I’m Eyal 👋
+# Hi, I'm Eyal 👋
 
-Senior Product Manager at GitHub based in San Diego.  
-I build and scale 0 to 1 products and self-serve platforms, focused on customer-first execution, operational reliability, and measurable impact.
+Senior Product Manager at GitHub, based in San Diego.
 
----
+Most of what's here is Home Assistant tinkering. I run a fairly involved
+smart home, and when a card or integration I wanted didn't exist (or broke),
+I ended up building it. These are the ones I've cleaned up enough to share.
 
-## 🛠️ What I’m Building
+## Home Assistant projects
 
-I design and ship custom Lovelace cards and integrations for Home Assistant.
+**[album_slideshow](https://github.com/eyalgal/album_slideshow)** [![Release](https://img.shields.io/github/v/release/eyalgal/album_slideshow?style=flat&logo=github)](https://github.com/eyalgal/album_slideshow/releases) [![Downloads](https://img.shields.io/github/downloads/eyalgal/album_slideshow/total.svg)](https://github.com/eyalgal/album_slideshow/releases)
+A photo slideshow integration. Started as a fix after the Google Photos API
+changes, now pulls from local folders, media sources, and Immich too.
 
+**[hatch-card](https://github.com/eyalgal/hatch-card)** [![Release](https://img.shields.io/github/v/release/eyalgal/hatch-card?style=flat&logo=github)](https://github.com/eyalgal/hatch-card/releases) [![Downloads](https://img.shields.io/github/downloads/eyalgal/hatch-card/total.svg)](https://github.com/eyalgal/hatch-card/releases)
+A Lovelace card for controlling Hatch Rest devices (sound, light, presets)
+from a dashboard instead of the app.
 
-### ⏱️ [simple-timer-card](https://github.com/eyalgal/simple-timer-card) [![Release](https://img.shields.io/github/v/release/eyalgal/simple-timer-card?style=flat&logo=github)](https://github.com/eyalgal/simple-timer-card/releases) [![GitHub Downloads](https://img.shields.io/github/downloads/eyalgal/simple-timer-card/total.svg)](https://github.com/eyalgal/simple-timer-card/releases)
+**[simple-timer-card](https://github.com/eyalgal/simple-timer-card)** [![Release](https://img.shields.io/github/v/release/eyalgal/simple-timer-card?style=flat&logo=github)](https://github.com/eyalgal/simple-timer-card/releases) [![Downloads](https://img.shields.io/github/downloads/eyalgal/simple-timer-card/total.svg)](https://github.com/eyalgal/simple-timer-card/releases)
+A timer card with a few display modes and optional MQTT sync so timers stay
+in step across devices.
 
-**Problem:** Native timer UIs were rigid and hard to integrate into custom dashboards.  
-**Solution:** A flexible Lovelace card with multiple display modes and MQTT sync for multi-device setups.
-
-### 🖼️ [album_slideshow](https://github.com/eyalgal/album_slideshow) [![Release](https://img.shields.io/github/v/release/eyalgal/album_slideshow?style=flat&logo=github)](https://github.com/eyalgal/album_slideshow/releases) [![GitHub Downloads](https://img.shields.io/github/downloads/eyalgal/album_slideshow/total.svg)](https://github.com/eyalgal/album_slideshow/releases)
-
-**Problem:** After Google Photos API changes deprecated existing integrations, displaying curated albums in Home Assistant became unreliable or unsupported.  
-**Solution:** A lightweight slideshow integration restoring album display with reliable performance and flexible configuration.
-
-### 🛒 [ha-shopping-list-card](https://github.com/eyalgal/ha-shopping-list-card) [![Release](https://img.shields.io/github/v/release/eyalgal/ha-shopping-list-card?style=flat&logo=github)](https://github.com/eyalgal/ha-shopping-list-card/releases) [![GitHub Downloads](https://img.shields.io/github/downloads/eyalgal/ha-shopping-list-card/total.svg)](https://github.com/eyalgal/ha-shopping-list-card/releases)
-
-**Problem:** Managing shopping lists required switching views and added dashboard friction.  
-**Solution:** A streamlined Lovelace card for fast, dashboard-native list management.
-
-### 🌙 [hatch-card](https://github.com/eyalgal/hatch-card) [![Release](https://img.shields.io/github/v/release/eyalgal/hatch-card?style=flat&logo=github)](https://github.com/eyalgal/hatch-card/releases) [![GitHub Downloads](https://img.shields.io/github/downloads/eyalgal/hatch-card/total.svg)](https://github.com/eyalgal/hatch-card/releases)
-**Problem:** Hatch Rest devices lacked native control inside Home Assistant dashboards.  
-**Solution:** A custom Lovelace controller enabling unified control and automation.
-
----
-
-## 🧠 How I Approach Product
-
-- Customer first. Work backwards from real user problems.  
-- Clear outcomes and measurable impact.  
-- Instrumentation before scaling.  
-- Close collaboration with engineering.  
-- Documentation that is structured and executable.
-
+**[ha-shopping-list-card](https://github.com/eyalgal/ha-shopping-list-card)** [![Release](https://img.shields.io/github/v/release/eyalgal/ha-shopping-list-card?style=flat&logo=github)](https://github.com/eyalgal/ha-shopping-list-card/releases) [![Downloads](https://img.shields.io/github/downloads/eyalgal/ha-shopping-list-card/total.svg)](https://github.com/eyalgal/ha-shopping-list-card/releases)
+A shopping list card that lives on the dashboard, so you don't have to jump
+to a separate view to add or check things off.
